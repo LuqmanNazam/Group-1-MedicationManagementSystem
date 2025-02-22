@@ -10,4 +10,18 @@ public class MedicationManagementApplication {
 		SpringApplication.run(MedicationManagementApplication.class, args);
 	}
 
+	/*
+	* 	How to Test
+
+		Open your browser and navigate to http://localhost:8080/h2-console. - This is for the database
+
+		Enter the following details to connect to the H2 database:
+		JDBC URL: MedicationManagementApplication
+		Username: luke
+		Password: (leave blank).
+
+		Click Test and then Connect to access the H2 console.
+
+		Use postman to test the API*/
+
 }
