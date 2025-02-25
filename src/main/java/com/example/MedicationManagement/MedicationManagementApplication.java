@@ -1,4 +1,4 @@
-package com.example.medicationmanagementapplication;
+package com.example.MedicationManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-public class MedicationTrackerApplication {
+public class MedicationManagementApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MedicationTrackerApplication.class, args);
+        SpringApplication.run(MedicationManagementApplication.class, args);
     }
 }
 
