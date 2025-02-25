@@ -8,7 +8,6 @@ import jakarta.persistence.Id;
 import java.time.LocalDate;
 
 
-
 @Entity // Annotation for JPA to create a table in the database
 public class Medication {
 
@@ -18,6 +17,7 @@ public class Medication {
 
     private String name;
     private String dosage;
+    private String unit;
     private String frequency;
     private LocalDate startDate;
     private LocalDate endDate;
@@ -45,6 +45,14 @@ public class Medication {
 
     public void setDosage(String dosage) {
         this.dosage = dosage;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
     }
 
     public String getFrequency() {

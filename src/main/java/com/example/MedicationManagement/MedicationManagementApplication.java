@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MedicationManagementApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MedicationManagementApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MedicationManagementApplication.class, args);
+    }
 
 	/*
 	* 	How to Test
@@ -23,5 +23,10 @@ public class MedicationManagementApplication {
 		Click Test and then Connect to access the H2 console.
 
 		Use postman to test the API*/
+
+//		How to test the application:
+//
+//			1. Run the code
+//			2. go to http://localhost:8080
 
 }

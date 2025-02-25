@@ -14,7 +14,7 @@ public class MedicationService {
     private MedicationRepository medicationRepository;
 
     // Create a new medication record
-    public Medication createMedication(Medication medication){
+    public Medication createMedication(Medication medication) {
         return medicationRepository.save(medication);
     }
 
@@ -24,19 +24,18 @@ public class MedicationService {
     }
 
     // Get all medication
-    public List<Medication> getAllMedication(){
+    public List<Medication> getAllMedication() {
         return medicationRepository.findAll();
     }
 
     // Update a medication
-    public Medication updateMedication(int id, Medication updatedMedication)
-    {
+    public Medication updateMedication(int id, Medication updatedMedication) {
         updatedMedication.setId(id); // Ensure the ID Matches
         return medicationRepository.save(updatedMedication); // Save the updated medication
     }
 
     //Delete a medication
-    public void deleteMedication(int id){
+    public void deleteMedication(int id) {
         medicationRepository.deleteById(id);
     }
 
