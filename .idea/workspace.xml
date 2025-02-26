@@ -9,17 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3f0f32c-d34f-43f3-8f99-c449d02f9220" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addMedication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editMedication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/medications.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/Medication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/Medication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/MedicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/MedicationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/MedicationManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/MedicationManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/MedicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MedicationManagement/MedicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addMedication.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addMedication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editMedication.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editMedication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/medications.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/medications.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

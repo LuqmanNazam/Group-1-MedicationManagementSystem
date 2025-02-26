@@ -24,7 +24,7 @@
                 <tr th:each="medication : ${medications}">
                     <td th:text="${medication.id}"></td>
                     <td th:text="${medication.name}"></td>
-                    <td th:text="${medication.dosage}"></td>
+                    <td th:text="${medication.dosage} + ' ' + ${medication.unit}"></td>
                     <td th:text="${medication.frequency}"></td>
                     <td th:text="${medication.startDate}"></td>
                     <td th:text="${medication.endDate}"></td>

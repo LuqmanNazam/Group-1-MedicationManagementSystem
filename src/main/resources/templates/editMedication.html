@@ -8,10 +8,14 @@
 <div class="container mt-5">
     <h1>Edit Medication</h1>
     <form th:action="@{/medications/update/{id}(id=${medication.id})}" th:object="${medication}" method="post">
+
+        <!--Name field-->
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" class="form-control" id="name" th:field="*{name}" required>
         </div>
+
+        <!--Dosage with unit field-->
         <div class="form-group">
             <label for="dosage">Dosage</label>
             <div class="input-group">
@@ -24,6 +28,8 @@
                 </select>
             </div>
         </div>
+
+        <!--Frequency field-->
         <div class="form-group">
             <label for="frequency">Frequency</label>
             <select class="form-control" id="frequency" th:field="*{frequency}" required>
@@ -33,14 +39,20 @@
                 <option value="As needed">As needed</option>
             </select>
         </div>
+
+        <!--Start Date field-->
         <div class="form-group">
             <label for="startDate">Start Date</label>
             <input type="date" class="form-control" id="startDate" th:field="*{startDate}" required>
         </div>
+
+        <!--End Date field-->
         <div class="form-group">
             <label for="endDate">End Date</label>
             <input type="date" class="form-control" id="endDate" th:field="*{endDate}">
         </div>
+
+        <!--Update and Cancel buttons-->
         <button type="submit" class="btn btn-primary">Update</button>
         <a th:href="@{/medications}" class="btn btn-secondary">Cancel</a>
     </form>

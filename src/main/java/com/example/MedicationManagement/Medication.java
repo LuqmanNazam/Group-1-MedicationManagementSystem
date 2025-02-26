@@ -12,15 +12,15 @@ import java.time.LocalDate;
 public class Medication {
 
     @Id // Annotation for JPA to recognize this as the primary key
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Annotation for JPA to auto-generate the ID
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // auto-generate the ID
     private int id;
 
-    private String name;
-    private String dosage;
-    private String unit;
-    private String frequency;
-    private LocalDate startDate;
-    private LocalDate endDate;
+    private String name; // Name of medication
+    private String dosage; // Dosage amount
+    private String unit; // Unit of dosage
+    private String frequency; // Frequency of intake
+    private LocalDate startDate; // Start date of medication
+    private LocalDate endDate; // End date of medication (optional)
 
     // Getters and Setters
     public int getId() {
